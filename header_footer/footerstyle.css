@@ -1,0 +1,17 @@
+
+  /*Footer*/
+  footer {
+    background-color: black;
+    padding: 5%;
+    color: #FFF;
+    border: solid;
+    border-color: #5c00e6;
+    display: inline;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
