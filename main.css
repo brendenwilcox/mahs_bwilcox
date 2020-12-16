@@ -25,11 +25,10 @@
   }
   
   .logogrid {
-    width: 15%;
+    width: 66px;
     height: 10%;
-    max-width: 20%;
-    min-width: 10%;
-    max-height: 40%;
+    max-width: 5%;
+    max-height: 5%;
     min-height: 15%; 
     display: inline-block;
     position: relative;
@@ -127,4 +126,3 @@
     width: 100%;
     height: auto;
   }
-

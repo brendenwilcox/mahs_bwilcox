@@ -43,27 +43,19 @@
 
 <div class="slideshow-container">
     <div class="mySlides fade" style="opacity: 1;">
-      <div class="numbertext">1 / 4</div>
       <img width=500px height=500px src="https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/130882003_202694191499638_7622284923803072616_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=110&_nc_ohc=lcy7jCMdcEkAX8j6VR5&tp=1&oh=e7f6125924678c4373c598f9a5647cc2&oe=6001C428" height=20% width=100%>
-      <div class="text">a</div>
     </div>
 
     <div class="mySlides fade" style="opacity: 1;">
-      <div class="numbertext">2 / 4</div>
       <img width=500px height=500px src="https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/131354746_2171398452994507_8300723865119097800_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=107&_nc_ohc=NIB-ich5RsAAX_fz61P&tp=1&oh=227b9eac9e45ea61f0408425c9c72a68&oe=6002EC55" height="20%" width="100%">
-      <div class="text">b</div>
     </div>
 
     <div class="mySlides fade" style="opacity: 1;">
-      <div class="numbertext">3 / 4</div>
       <img width=500px height=500px src="https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/131334994_210376903918070_1676970809018492249_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=102&_nc_ohc=BqajE18mhEUAX8xwLGA&tp=1&oh=2240191f231091f2a057eb2db3fbc076&oe=5FFF634F" height="20%" width="100%">
-      <div class="text">c</div>
     </div>
 
     <div class="mySlides fade" style="opacity: 1;">
-      <div class="numbertext">4 / 4</div>
       <img width=500px height=500px src="https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/131044447_1698774970280921_2781570689583030506_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=105&_nc_ohc=OrwizhD_cdYAX-yXVVy&tp=1&oh=10309c66d28a4d11990a3127bfdb5f34&oe=60012AD7" height="20%" width="100%">
-      <div class="text">d</div>
     </div>
     <a class="prev" style="opacity: 1;" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" style="opacity: 1;" onclick="plusSlides(1)">&#10095;</a>
@@ -109,17 +101,35 @@
     }
   </script>
 </div>
-
+<div style="flex-direction: row; display: flex; left: 25%; position: absolute;">
 <div class="card" style="width: 18rem;">
   <img src="..." class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">InstaRef Camera</h5>
-    <p class="card-text">Use this camera for your pickup basketball games and get every foul call perfect!</p>
+    <p class="card-text" style="font-size: 16px;">Use this camera for your pickup basketball games and get every foul call perfect!</p>
     <a href="order.php" class="btn btn-primary">Order</a>
   </div>
   </div>
-  
-  <a class="box" type="button" style="font-size: 32px; text-decoration: none;" href="about.php">Learn more about us</a>
+
+  <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">InstaRef Camera</h5>
+    <p class="card-text" style="font-size: 16px;">Use this camera for your pickup basketball games and get every foul call perfect!</p>
+    <a href="order.php" class="btn btn-primary">Order</a>
+  </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">InstaRef Camera</h5>
+    <p class="card-text" style="font-size: 16px;">Use this camera for your pickup basketball games and get every foul call perfect!</p>
+    <a href="order.php" class="btn btn-primary">Order</a>
+  </div>
+  </div>
+  </div>
+  <a class="box" type="button" style="font-size: 32px; text-decoration: none; margin-top: 400px;" href="about.php">Learn more about us</a>
 
 <?php include 'footer.php';?>
 
